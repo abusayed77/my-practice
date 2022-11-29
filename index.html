@@ -1,10 +1,153 @@
-<DOCTYPE html>
-<html>
-  <head>
-    <title> web page </title>
-  </head>
-  <body>
-    <h2> This is a heading</h2>
-    <a href="./lightbox-slide/index.html">Home</a>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--
+        primary meta tags
+    -->
+    <title>Abu Sayed || Protfolio</title>
+    <meta name="title" content="Abu Sayed - I'm a User Interface Designer & Developer">
+    <meta name="description" content="This is a personar portfolio html template made by abu sayed">
+
+    <!--
+        favicon
+    -->
+    <link rel="shortcut icon" href="./favicon.svg" type="images/svg+xml">
+
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+    <!--
+        coustom css
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--
+        preload image
+    -->
+
+    <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+    <link rel="preload" as="image" href="./assets/images/Blog.svg">
+
+
+</head>
+<body>
+    
+    <!--
+        HEADER
+    -->
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="#" class="logo">
+                <img src="./assets/images/logo-dark.svg" width="64" height="24" alt="Julia home">
+            </a>
+
+            <nav class="navbar" data-navbar> 
+
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/logo-light.svg" width="64" height="24" alt="julia home">
+                    </a>
+
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="#" class="navbar-link">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#" class="navbar-link">About</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#" class="navbar-link">Projects</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#" class="navbar-link">Blogs</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#" class="navbar-link">content</a>
+                    </li>
+                    
+                </ul>
+
+                <div class="wrapper">
+                    <a href="mailto:info@gmail.com" class="contact-link"> info@gmail.com</a>
+
+                    <a href="#" class="contact-link">00 (123) 456 78 90</a>
+                </div>
+
+                <ul class="social-list">
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-dribbble"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+            
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+    <!--
+        custom js link
+    -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+        ionicon link
+    -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
 </html>
